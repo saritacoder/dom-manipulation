@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="margin: 0">
+    <div id="header" style="padding: 1rem; background-color: lightblue">
+      <h1 id="main-heading" style="margin: 0">Fruit Shop</h1>
+      <input id="filter" type="text" placeholder="Search fruits..." />
+    </div>
+    <div>
+      <form>
+        <h2 id="basket-heading">Add Fruits</h2>
+        <input type="text" name="fruit" id="fruit-to-add" />
+        <button type="submit">Add</button>
+      </form>
+      <ul class="fruits">
+        <li class="fruit">Banana<button class="delete-btn">x</button></li>
+        <li class="fruit">Apple<button class="delete-btn">x</button></li>
+        <li class="fruit">Orange<button class="delete-btn">x</button></li>
+        <li class="fruit">Kiwi<button class="delete-btn">x</button></li>
+      </ul>
+    </div>
+    <div id="thanks"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
+
+
+
+
+<!-- question -->
+<!-- 
+Watch this video to understand the algorithm for implementing the filter functionality:
+
+Filter - Algo
+
+
+
+Watch how we will code it:
+
+Filter - Code
+
+
+
+Deliverables:
+
+1. Use DOM Manipulation to add another input element inside form, before the button. This input element will take the description of the fruit.
+
+2. Use DOM Manipulation to show the fruit description (in italics) on screen alongwith the fruit name. This description should be shown in the next line (HINT: To show description on next line you can make use of the paragraph tag).
+
+3. Now, create a filter that shows only those fruits whose either name or description or both matches the entered text.
+
+
+
+Note: The input element that you will create using DOM manipulation to collect the description of fruit, must be given an id “description”.
+
+
+
+If you are getting any errors try debugging the error, after all no one becomes a developer without making mistakes and then debugging. Watch this video to understand the different ways of debugging.
+
+
+ -->

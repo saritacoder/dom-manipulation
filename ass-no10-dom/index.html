@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="margin: 0">
+    <div id="header" style="padding: 1rem; background-color: lightblue">
+      <h1 id="main-heading" style="margin: 0">Fruit Shop</h1>
+      <input id="filter" type="text" placeholder="Search fruits..." />
+    </div>
+    <div>
+      <form>
+        <h2 id="basket-heading">Add Fruits</h2>
+        <input type="text" name="fruit" id="fruit-to-add" />
+        <button type="submit">Add</button>
+      </form>
+      <ul class="fruits">
+        <li class="fruit">Banana<button class="delete-btn">x</button></li>
+        <li class="fruit">Apple<button class="delete-btn">x</button></li>
+        <li class="fruit">Orange<button class="delete-btn">x</button></li>
+        <li class="fruit">Kiwi<button class="delete-btn">x</button></li>
+      </ul>
+    </div>
+    <div id="thanks"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
+
+
+
+
+<!-- //que -->
+<!-- Watch this video to understand event listeners:
+
+Event Listeners
+
+
+
+Watch this video to understand how to add and delete items from a list:
+
+Add and Delete Fruits
+
+
+
+Deliverables:
+
+1. In each "li" after the delete button add an edit button with class 'edit-btn'. Once you do this the output on the screen will look like this:
+
+
+
+2. Now, implement the add and delete functionality just the way it is done in the video. There is only one difference that now the new 'li' element that you will create will have two buttons (delete and edit) instead of one button.
+
+
+
+Note:
+
+You have to just add the edit button. You do not have to implement the edit functionality.
+Do not touch the html file.
+To listen for form submission event use addEventListener. -->
