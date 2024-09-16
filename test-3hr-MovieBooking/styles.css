@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .container {
+    flex: 1;
+  }
+  
+  .movie-booking {
+    flex: 1;
+    margin-left: 50px; 
+  }
+  
